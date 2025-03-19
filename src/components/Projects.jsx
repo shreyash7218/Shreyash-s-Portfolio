@@ -20,14 +20,6 @@ const projects = [
     live: 'https://shreyash7218.github.io/'
   },
   {
-    title: 'Project 3',
-    description: 'Description of your first project. What problem did it solve? What technologies did you use?',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80',
-    technologies: ['React', 'Node.js', 'MongoDB'],
-    github: '#',
-    live: '#'
-  },
-  {
     title: 'PC StorePCStore - E-commerce Website',
     description: 'PCStore is an interactive e-commerce platform developed to streamline online product management for sellers. This project demonstrates expertise in full-stack web development, offering a seamless user experience and robust seller management capabilities.',
     image: '\\components\\pcstore.png',
