@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Download, ChevronDown } from 'lucide-react';
 import { Link } from 'react-scroll';
+import Resume from '/src/assets/shreyash_Resume.pdf';
 
 export default function Hero() {
   return (
@@ -64,7 +65,7 @@ export default function Hero() {
               Get in Touch
             </motion.a>
             <motion.a
-              href="components\shreyash_Resume.pdf"
+              href={Resume}
               className="inline-flex items-center px-6 py-3 border border-purple-400 text-base font-medium rounded-md text-purple-400 hover:text-white hover:bg-purple-500 hover:border-transparent transform transition-all duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

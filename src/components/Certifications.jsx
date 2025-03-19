@@ -1,19 +1,26 @@
 import { motion } from 'framer-motion';
 import { Award, ExternalLink } from 'lucide-react';
+import powerbi from '/src/assets/powerbi.png';
+import dataanalyst from '/src/assets/dataanalyst.png';
+import jenkins from '/src/assets/jenkins.png';
+import AWS from '/src/assets/AWS.png';
+import aict from '/src/assets/aict.png';
+import aictcer from '/src/assets/aictcer.png';
+
 
 const certifications = [
   {
     title: 'Microsoft Power BI Data Analyst Certification',
     issuer: 'Coursera',
     date: 'Aug 2024',
-    image: '\\components\\powerbi.png',
+    image: powerbi,
     link: 'https://www.coursera.org/account/accomplishments/professional-cert/R15FOUQD6YU3'
   },
   {
     title: 'Google Data Analytics',
     issuer: 'Coursera',
     date: 'September 2023',
-    image: '\\components\\dataanalyst.png',
+    image: dataanalyst,
     link: 'https://www.coursera.org/account/accomplishments/specialization/certificate/VDG8Y2S9VDFU'
   },
   {
@@ -28,7 +35,7 @@ const certifications = [
     title: 'Jenkins certificate',
     issuer: 'LinkedIn Learning',
     date: 'Aug 2023',
-    image: '\\components\\jenkins.png',
+    image: jenkins,
     link: 'https://www.linkedin.com/learning/certificates/b05266fe36c5584ea2ad53fc2e029db89b3a5e20849bf965186a6e9dc7f15da5?trk=share_certificate'
   },
   
@@ -36,7 +43,7 @@ const certifications = [
     title: 'AWS Academy Cloud Foundations',
     issuer: 'AWS Training and Certification',
     date: 'June 2023',
-    image: '\\components\\AWS.png',
+    image: AWS,
     link: 'https://www.credly.com/badges/9fbc2ceb-7dbb-40ad-8747-e7b2779f22d5/public_url'
   },
   
@@ -44,15 +51,15 @@ const certifications = [
     title: 'AWS Academy Machine Learning Foundations',
     issuer: 'AWS Training and Certification',
     date: 'June 2023',
-    image: '\\components\\AWS.png',
+    image: AWS,
     link: 'https://www.credly.com/badges/cb765836-2edc-4fee-9b3c-6cb3cb9ff3dd/public_url'
   },
   {
     title: 'AWS AI-ML VIRTUAL INTERNSHIP',
     issuer: 'AICTE',
     date: ' (MAY - JULY 2023)',
-    image: '\\components\\aict.png',
-    link: '\\components\\aictcer.png'
+    image: aict,
+    link: aictcer
   },
   
   

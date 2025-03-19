@@ -1,11 +1,15 @@
 import { motion } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
+import esubmitImg from '/src/assets/esubmit.png';
+import portfolioImg from '/src/assets/portfolio.png';
+import pcstoreImg from '/src/assets/pcstore.png';
+import cakeshopImg from '/src/assets/cakeshop.png';
 
 const projects = [
   {
     title: 'E-Submit-Assignment-submission-portal',
     description: 'eSubmit is a Spring Boot-based submission management system with JWT authentication, MySQL database, and Swagger API documentation. It streamlines secure file submissions, user authentication, and data management efficiently.',
-    image: '\\components\\esubmit.png',
+    image: esubmitImg,
     technologies: ['React', 'Spring Boot', 'Mysql'],
     github: 'https://github.com/DAC-project-Esubmitt/E-Submit-Assignment-submission-portal',
     live: '#'
@@ -14,7 +18,7 @@ const projects = [
   {
     title: 'Personal Portfolio',
     description: 'This personal portfolio website showcases my skills, projects, certifications, and professional accomplishments. Designed with a clean and responsive layout, it highlights my experience and career goals effectively.',
-    image: '\\components\\portfolio.png',
+    image: portfolioImg,
     technologies: ['React', 'Tailwind CSS'],
     github: 'https://github.com/shreyash7218/Shreyash7218.github.io',
     live: 'https://shreyash7218.github.io/'
@@ -22,7 +26,7 @@ const projects = [
   {
     title: 'PC StorePCStore - E-commerce Website',
     description: 'PCStore is an interactive e-commerce platform developed to streamline online product management for sellers. This project demonstrates expertise in full-stack web development, offering a seamless user experience and robust seller management capabilities.',
-    image: '\\components\\pcstore.png',
+    image: pcstoreImg,
     technologies: ['Html5', 'PHP', 'PostgreSQL'],
     github: 'https://github.com/shreyash7218/pc_store',
     live: '#'
@@ -31,7 +35,7 @@ const projects = [
   {
     title: 'Bakery Website',
     description: 'CakeShop is a PHP-based online bakery management system with JavaScript, PostgreSQL, and HTML/CSS for a seamless user experience. It allows customers to browse, order cakes online, and manage deliveries, while admins handle inventory, orders, and payments efficiently.',
-    image: '\\components\\cakeshop.png',
+    image: cakeshopImg,
     technologies: ['Html5', 'PHP', 'MySQL'],
     github: 'https://github.com/shreyash7218/Cake-Shop',
     live: '#'
